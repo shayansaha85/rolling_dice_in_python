@@ -1,0 +1,1 @@
+run the "main.py" file and press enter for rolling the dice as many times as you want.
