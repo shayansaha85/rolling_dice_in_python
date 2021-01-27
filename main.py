@@ -1,11 +1,14 @@
 import sys
+import os
 import random
 sys.path.append('.\\dice.py')
 
 from dice import *
-
+i=1
 while True:
     roll=random.randint(1,6)
+    print(i)
+    i+=1
 
     if roll==1:
         one()
@@ -20,3 +23,4 @@ while True:
     elif roll==6:
         six()
     input('Press ENTER to roll again')
+    os.system('cls')
